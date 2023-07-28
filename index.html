@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaitanya's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chaitanya R.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chaitanya R.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="sec_pic-container">
+        <img
+          src="./assets/profilepic.png"
+          alt="Chaitanya Revandkar Profile Picture"
+        />
+      </div>
+      <div class="sec_text">
+        <p class="sec_text_1">Hello, I'm</p>
+        <h1 class="title">Chaitanya Revandkar</h1>
+        <p class="sec_text_2">Front-end Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Details
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/lindin.png"
+            alt="Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/csrev19/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="github profile"
+            class="icon"
+            onclick="location.href='https://github.com/chaiiitanya'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="sec-container">
+        <div class="about-det-con">
+          <div class="about-con">
+            <div class="det-con">
+              <img src="./assets/exp.png" alt="exp icon" class="icon" />
+              <h2>Experience</h2>
+              <p>
+                Web Development Internship <br />
+                at CODSOFT -July 2023 ,
+              </p>
+              <p>
+                Python Course by Jose Portilla <br />
+                on Udemy - 2023
+              </p>
+            </div>
+            <div class="det-con">
+              <img src="./assets/ed.png" alt="Education icon" class="icon" />
+              <h2>Education</h2>
+              <p>
+                BE in Information Technology <br />
+                Datta Meghe College of Engineering, Navi Mumbai <br />
+                2021 - 2024 ,
+              </p>
+              <p>
+                HSC at Model College of Science, Kalyan <br />
+                2020
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Highly-motivated Information Technology Engineering student with
+              experience in coding in Python, HTML, CSS, and Web Development,
+              the skills I can add to my job are problem-solving, decision
+              making as a team leader in past projects, and values like
+              consistency, team leading, and bringing inspiration through the
+              experience of being an athlete.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="skills-det-con">
+        <div class="about-con">
+          <div class="det-con">
+            <h2 class="skills-subtitle">Front-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/htmllogo.png"
+                  alt="skill lcon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/csslogo.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/jslogo.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/ts.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>Typescript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="det-con">
+            <h2 class="skills-subtitle">Back-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/pylogo.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/sq.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/java.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/node.png" alt="skill lcon" class="icon" />
+                <div>
+                  <h3>NodeJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="skills-det-con">
+        <div class="about-con">
+          <div class="det-con color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ssw.png"
+                alt="Project 1 "
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-subtitle project-title">
+              Sneaker Shopping Website - Ecommerce Website using
+              HTML,CSS,JavaScript
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="det-con color-container">
+            <div class="article-container">
+              <img
+                src="./assets/todolist.png"
+                alt="Project 1 "
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-subtitle project-title">
+              To-Do List - React Web App
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="det-con color-container">
+            <div class="article-container">
+              <img
+                src="./assets/gdt.jpg"
+                alt="Project 1 "
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-subtitle project-title">
+              Gym and Diet Tracker - Flutter Android App
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1"
+                onclick="location.href='https://github.com'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <br />
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:chaitanyarevandkar710@gmail.com"
+              >chaitanyarevandkar710@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/lindin.png"
+            alt="Linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/csrev19/">LinkedIn</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://github.com/chaiiitanya">Github</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Chaitanya Revandkar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
